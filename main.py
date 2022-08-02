@@ -2,7 +2,7 @@
 import PyPDF2
 	
 # creating a pdf file object
-pdfFileObj = open('C:/Users/upasa_0l5az6n/Downloads/sample_pres-med.pdf', 'rb')
+pdfFileObj = open('/sample_pres-med.pdf', 'rb')
 	
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
